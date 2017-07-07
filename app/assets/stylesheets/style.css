@@ -663,65 +663,19 @@ h1 span{
     clear:both;
 }
 
-/* Partners */
+/* COSMO BLANC */
 
-.partners{
-  position:relative;
-  width:100%;
-  z-index:10;
-  height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.partners .opacity{
-  position:absolute;
-  width:100%;
-  height:400px;
-  background:rgba(79,79,79,0.6);
-}
-
-.partners .content{
-  position:absolute;
-  width:900px;
-  height:190px;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
-.partners h2{
-  color:white;
-  letter-spacing:1px;
-  font-size:32px;
+.about-us p.cosmoblanc{
+  color: #a4a4a4;
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+  padding: 0;
+  width:800px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
   font-weight:300;
   text-align:center;
-}
-
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
-
-.partners .logo img{
-  opacity:0.5;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.partners .logo img:hover{
-  opacity:1;
 }
 
 /* Contact */
@@ -735,83 +689,38 @@ h1 span{
   margin-bottom: 300px;
 }
 
-
-.contact .content{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin: 60px auto 65px auto;
-}
-
 .contact h1{
   font-size:34px;
   color:black;
   text-align:center;
   margin-top:120px;
   letter-spacing:6px;
-  font-weight:bold;
+  /*font-weight:bold;*/
   text-transform:uppercase;
   line-height:1.2;
 }
 
+
 .contact hr{
   color: black;
   margin-top:30px;
-  background-color: black;
+  background-color: #d1aa88;
   height: 1px;
   width:106px;
   border:0;
 }
 
-.contact .content .form{
-  width:455px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-}
-
-.contact .content .form .column{
-  width:180px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-  margin-bottom:30px;
-}
-
-.contact .content .form .column-2{
-  width:210px;
-  padding-left:60px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-  margin-bottom:30px;
-}
-
-.contact .content .form .column-3{
-  width:450px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-}
-
-.contact .content .contact-text{
-  width:405px;
-  overflow:hidden;
-  height:auto;
-  font-weight:300;
-  float:left;
-  padding-left:40px;
+.contact .formname{
+  text-align:center;
+  margin-top:1.7em;
+  margin-bottom: -1.1em;
+  /*font-size:26px;*/
   color:black;
-  font-size:14px;
-  line-height:26px;
-}
-
-strong{
-  font-weight:700;
-
+  /*line-height:1.2;*/
+  letter-spacing:2px;
+  width:100%;
+  position:relative;
+  font-weight:200;
 }
 
 input{
