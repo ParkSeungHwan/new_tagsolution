@@ -25,98 +25,12 @@
       </div>
   </div>
 
+  <!-- Navbar & mobile view Navbar -->
+  <%= render partial: "navbar" %>
 
+  <!-- ABOUT US -->
+  <%= render partial: "aboutus" %>
 
-  <!-- section menu mobile -->
-
-  <section class="menu-media">
-
-    <div class="menu-content">
-
-      <div class="logo"><%= image_tag asset_path('logo_black.jpg') %></div>
-
-      <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
-
-    </div>
-
-  </section>
-
-    <ul class="menu-click">
-        <a href="#home"><li href="#home">HOME</li></a>
-        <a href="#about-us"><li href="#about-us">ABOUT US</li></a>
-        <a href="#portfolio"><li href="#portfolio">PORTFOLIO</li></a>
-        <a href="#contact"><li href="#contact">CONTACT</li></a>
-
-    </ul>
-
-
-  <!-- section menu -->
-
-  <section class="menu">
-
-    <div class="menu-content">
-
-    <div class="logo"><%= image_tag asset_path('logo_black.jpg') %></div>
-
-      <ul id="menu">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about-us">ABOUT US</a></li>
-        <li><a href="#portfolio">TAG PANEL</a></li>
-        <li><a href="#contact">COSMO BLANC</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-
-
-  </section>
-
-
-  <!-- section about us -->
-
-  <section class="about-us" id="about-us">
-
-  <div class="content" id="About-TAGSolution">
-    <h1>ABOUT US</h1> <hr/>
-
-    <p class="title">
-      TAG Solution은<br>
-      투명한 것은 어디에든 있다는 비전 아래 지금까지 투명한 유리에 빛을 통해 다양한 컨텐츠를 표현하고, <br>
-      이를 통해 건축물에 새로운 가치를 구현하는 일을 진행해왔습니다.<br>
-      기존 건축물의 디자인을 해치지 않으면서 저희 제품을 통해 텍스트, 이미지, 동영상 등 많은 컨텐츠를 자유롭게 표현하는 것.<br>
-      모든 건축물의 벽면과 유리를 살아있는 디스플레이로 만들고, 스마트 시티로까지 나아가는 일.<br>
-      TAG Solution은 지금 이순간에도 세상을 바꿔가고 있습니다.
-    </p>
-    <div>
-      <%= image_tag asset_path('aboutus.jpg') %>
-    </div>
-  </div>
-
-  <div class="content" id="About-members">
-    <h1>MEMBERS</h1> <hr/>
-    <div class="column-one">
-      <div class="circle-one"></div>
-      <h2><span class="position">CEO</span></h2>
-      <h2>SEUNGHWAN PARK</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-    </div>
-
-    <div class="column-two">
-      <div class="circle-two"></div>
-      <h2>CTO</h2>
-      <h2>KYUNGDO KIM</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-    </div>
-
-
-    <div class="column-three">
-      <div class="circle-three"></div>
-      <h2>CCO</h2>
-      <h2>KEEPON CHO</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-    </div>
-  </div>
-
-  </section>
 
   <div class="clear"></div>
 
@@ -279,88 +193,11 @@
 
    <div class="clear"></div>
 
-
-
-
-    <!-- partners-->
-
-    <section class="partners parallax-background-partners" id="partners">
-
-    <div class="opacity"></div>
-
-      <div class="content">
-
-        <h2>Thanks for partners</h2>
-
-            <div class="logo">
-
-                <a href="#"><img src="img/logos/alex1.png"></a>
-                <a href="#"><img src="img/logos/archiq.png"></a>
-                <a href="#"><img src="img/logos/thomsoon.png"></a>
-                <a href="#"><img src="img/logos/alex2.png"></a>
-
-            </div>
-
-      </div>
-
-    </section>
-
+    <!-- ABOUT US -->
+   <%= render partial: "cosmoblanc" %>
 
     <!-- Contact-->
-
-    <section class="contact" id="contact">
-        <h1>Contact</h1>
-        <hr/>
-
-        <div class="content">
-
-          <div class="form">
-
-            <form method="post" action="mail.php" name="kontakt">
-
-            <div class="column">
-            YOUR NAME<br/><br/>
-            <input name="name" id="name" value="" />
-            </div>
-
-            <div class="column-2">
-            YOUR E-MAIL<br/><br/>
-            <input name="email" id="email" value="" />
-            </div>
-
-
-            <div class="column-3">
-            MESSAGE<br/><br/>
-            <textarea id="message" name="message" ></textarea>
-            </div>
-
-              <div class="button">
-                <span><input class="submit" id="submit" name="submit" type="submit" value="SEND"></span>
-              </div>
-
-            </form>
-
-          </div>
-
-
-          <div class="contact-text">
-
-          To contact us please use the contact form visible<br/><br/>
-
-          When sending files, please use<br/>
-          the following e-mail<br/><br/>
-
-          <strong>Tomasz Mazurczak</strong><br/><br/>
-
-          e-mail: <strong>contact@thomsoon.com</strong>
-
-          </div>
-
-
-        </div>
-
-    </section>
-
+   <%= render partial: "contact" %>
 
     <section class="footer">
 
