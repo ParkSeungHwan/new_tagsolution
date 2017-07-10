@@ -5,7 +5,7 @@
   <!-- Loading할때 나오는 page -->
   <div class="preloader" id="preloader">
       <div class="item">
-        <img src="img/loading.gif">
+        <%= image_tag asset_path('loading.gif') %>
       </div>
   </div>
 
@@ -21,9 +21,166 @@
     <%= render partial: 'panelintro' %>
     <%= render partial: 'market' %>
   <!-- portoflio-->
+<<<<<<< HEAD
     <%= render partial: 'portfolio' %>
     <%= render partial: 'potential' %>
     <%= render partial: 'woringmovie' %>
+=======
+
+  <section class="portfolio" id="portfolio">
+
+
+    <div class="portfolio-margin">
+
+      <h1>PORTFOLIO</h1>
+      <hr/>
+
+    <!-- 1 item portoflio-->
+
+        <ul class="grid">
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 1</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 2 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p>
+                  <p class="description"></p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 3 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p>
+                  <p class="description"></p>
+              </div>
+            </a>
+          </li>
+
+
+          <!-- 4 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p>
+                  <p class="description"></p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 5 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p>
+                  <p class="description"></p>
+              </div>
+            </a>
+          </li>
+
+
+          <!-- 6 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 6</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+         <!-- 7 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 7</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 8 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 8</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 9 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 9</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 10 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 11</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+          <!-- 11 item portoflio-->
+
+          <li>
+            <a href="#">
+              <img src="" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 11</p>
+                  <p class="description">Your text here...</p>
+              </div>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+   <a href="#"><div class="read-more">Read more</div></a>
+
+   </div>
+
+   </section>
+>>>>>>> f152cb86098e3ce3e8384823979159a61cdda03c
 
 
    <div class="clear"></div>
@@ -37,18 +194,9 @@
     <!-- Footer -->
    <%= render partial: "footer" %>
 
-
-
+<!--
    <script>
-     $(function(){
-
-       var $container = $('.grid');
-
-       $container.imagesLoaded( function(){
-         $container.masonry({
-           itemSelector : 'li'
-         });
-       });
-
-     });
-   </script>
+   $( ".menu-content ul li" ).hover(function() {
+     $(this).slideToggle(400);
+   });
+   </script> -->
