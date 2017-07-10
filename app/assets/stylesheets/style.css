@@ -176,25 +176,9 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
+  background: #d1aa88;
   border:1px solid #ada074;
 }
-
-.start-page .content .arrow-down{
-  position: absolute;
-  bottom: 110px;
-  left: 50%;
-  margin-left: -10px;
-  width: 21px;
-  height: 29px;
-  background: url(../img/arrow-down.png) no-repeat center center;
-  display: block;
-  -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
-  -moz-animation:    bounce-fade 1.2s infinite; /* Fx 5+ */
-  -o-animation:      bounce-fade 1.2s infinite; /* Opera 12+ */
-   animation:        bounce-fade 1.2s infinite; /* IE 10+ */
-}
-
 
 @-webkit-keyframes bounce-fade {
     0%   { opacity: 0; bottom: 70px; }
