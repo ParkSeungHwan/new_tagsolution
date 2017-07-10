@@ -104,7 +104,7 @@ h1 span{
   max-width:100%;
   height:100%;
   z-index:10;
-  background: url(/assets/mainpic.jpg) #c0c0c0 bottom center fixed no-repeat;
+  background: url(/assets/mainpic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -144,8 +144,6 @@ h1 span{
   left:0;
   bottom:0;
   right:0;
-  width:700px;
-  height:520px;
 }
 
 /*.start-page .content .text .logo{
@@ -153,8 +151,8 @@ h1 span{
   height:123px;
   margin:0 auto 50px;
 
-}
-*/
+}*/
+
 
 .start-page .content .text .read-more{
   width:183px;
@@ -680,14 +678,19 @@ h1 span{
 
 /* Contact */
 
-.contact{
-  position:relative;
-  width:100%;
-  background:white;
-  z-index:10;
-  overflow:hidden;
-  margin-bottom: 300px;
+.about-us p.contact{
+  color: #a4a4a4;
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+  padding: 0;
+  width:800px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
+  font-weight:300;
+  text-align:center;
 }
+
 
 .contact h1{
   font-size:34px;
@@ -700,7 +703,6 @@ h1 span{
   line-height:1.2;
 }
 
-
 .contact hr{
   color: black;
   margin-top:30px;
@@ -710,59 +712,29 @@ h1 span{
   border:0;
 }
 
-.contact .formname{
-  text-align:center;
-  margin-top:1.7em;
-  margin-bottom: -1.1em;
-  /*font-size:26px;*/
+
+.contact h3{
+  font-size:24px;
   color:black;
-  /*line-height:1.2;*/
-  letter-spacing:2px;
-  width:100%;
-  position:relative;
-  font-weight:200;
+  text-align:center;
+  margin-top:120px;
+  letter-spacing:6px;
+  /*font-weight:bold;*/
+  text-transform:uppercase;
+  line-height:1.2;
+}
+
+.about-us form{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 
 input{
-
-  width:180px;
-  height:40px;
-  background:#f8f7f7;
-  border-top:1px solid #333;
-  border-bottom:0;
-  border-left:0;
-  border-right:0;
-  color:#333;
-  font-weight:300;
-  line-height:40px;
-  padding-left:15px;
-  font-family: 'Lato', sans-serif;
-  font-size:14px;
-  margin-bottom:10px;
+  background-color:#d1aa88;
 }
 
-input:focus{background:#f4f4f4;}
-
-textarea{
-
-  width:420px;
-  height:150px;
-  border-top:1px solid #333;
-  border-bottom:0;
-  line-height:20px;
-  border-left:0;
-  border-right:0;
-  background:#f8f7f7;
-  color:#333;
-  font-weight:300;
-  padding:15px 0 0 15px;
-  font-family: 'Lato', sans-serif;
-  font-size:14px;
-  margin-bottom:10px;
-}
-
-textarea:focus{background:#f4f4f4;}
-
+input:focus{background:#fff4ed;}
 
 input.submit{
   width:100px;
@@ -780,6 +752,8 @@ input.submit{
 	transition: all 0.6s ease-in;
 }
 
+textarea:focus{background:#fff4ed;}
+
 /* Footer */
 
 
@@ -791,13 +765,8 @@ input.submit{
 }
 
 .footer .logo{
-
-  position:relative;
-  width:58px;
-  height:58px;
+  padding: 1em;
   margin: 0 auto;
-  padding-top:50px;
-
 }
 
 .footer .menu-footer{
