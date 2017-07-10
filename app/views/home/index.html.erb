@@ -18,26 +18,23 @@
 
   <div class="clear"></div>
 
-    <%= render partial: 'panelintro' %>
-    <%= render partial: 'market' %>
-  <!-- portoflio-->
-    <%= render partial: 'portfolio' %>
-    <%= render partial: 'potential' %>
-    <%= render partial: 'woringmovie' %>
+  <div class="clear"></div>
+  <%= render partial: 'panelintro' %>
+  <%= render partial: 'market' %>
+  <%= render partial: 'portfolio' %>
+  <%= render partial: 'potential' %>
+  <%= render partial: 'woringmovie' %>
 
-  <section class="portfolio" id="portfolio">
+  <div class="clear"></div>
 
+  <!-- ABOUT US -->
+  <%= render partial: "cosmoblanc" %>
 
-   <div class="clear"></div>
+  <!-- Contact-->
+  <%= render partial: 'contacts/contact', locals: { contact:@contact } %>
 
-    <!-- ABOUT US -->
-   <%= render partial: "cosmoblanc" %>
-
-    <!-- Contact-->
-   <%= render partial: 'contacts/contact', locals: { contact:@contact, subscribe:@subscribe } %>
-
-    <!-- Footer -->
-   <%= render partial: "footer" %>
+  <!-- Footer -->
+  <%= render partial: "footer" %>
 
 <!--
    <script>

@@ -1,73 +1,60 @@
-<section class="portfolio" id="portfolio">
-  <div class="portfolio-margin">
-
+<section class="about-us" id="portfolio">
+  <div class="container">
     <h1>PORTFOLIO</h1>
     <hr/>
 
-    <!-- 1 item portoflio-->
-
-    <ul class="grid">
-
-      <li>
+    <div class="row" style="padding: 1em;">
+      <!-- 1 item portoflio-->
+      <div class="col-md-5">
         <a href="#">
-          <%= image_tag asset_path('portfolio1.jpg') %>
+          <%= image_tag asset_path('portfolio1.jpg'), style: "height: auto; width: 100%;" %>
           <div class="text">
-            <p>PORTFOLIO 1</p>
-            <p class="description">Your text here...</p>
+            <!-- <p>PORTFOLIO 1</p> -->
+            <p>CES 2017 in Las Vegas</p>
           </div>
         </a>
-      </li>
+      </div>
 
-      <!-- 2 item portoflio-->
-
-      <li>
+        <!-- 2 item portoflio-->
+      <div class="col-md-5">
         <a href="#">
-          <%= image_tag asset_path('portfolio2.jpg') %>
-          <div class="no-text">
-            <p></p>
-            <p class="description"></p>
+          <%= image_tag asset_path('portfolio2.jpg'), style: "height: auto; width: 100%;" %>
+          <div class="text">
+            <p>Cafe in Sinchon, Korea</p>
           </div>
         </a>
-      </li>
+      </div>
 
-      <!-- 3 item portoflio-->
-
-      <li>
+        <!-- 3 item portoflio-->
+      <div class="col-md-2">
         <a href="#">
-          <%= image_tag asset_path('portfolio3.jpg') %>
-          <div class="no-text">
-            <p></p>
-            <p class="description"></p>
+          <%= image_tag asset_path('portfolio3.jpg'), style: "height: auto; width: 100%;" %>
+          <div class="text">
+            <p>COEX in Gangnam, Korea</p>
           </div>
         </a>
-      </li>
+      </div>
+    </div>
 
-
-      <!-- 4 item portoflio-->
-
-      <li>
+    <div class="row" style="padding: 1em;">
+        <!-- 4 item portoflio-->
+      <div class="col-md-8">
         <a href="#">
-          <%= image_tag asset_path('portfolio4.jpg') %>
-          <div class="no-text">
-            <p></p>
-            <p class="description"></p>
+          <%= image_tag asset_path('portfolio4.jpg'), style: "height: auto; width: 100%;" %>
+          <div class="text">
+            <p>Seoul National University<br>Engineering building</p>
           </div>
         </a>
-      </li>
-
-      <!-- 5 item portoflio-->
-
-      <li>
+      </div>
+        <!-- 5 item portoflio-->
+      <div class="col-md-4">
         <a href="#">
-          <%= image_tag asset_path('portfolio5.jpg') %>
-          <div class="no-text">
-            <p></p>
-            <p class="description"></p>
+          <%= image_tag asset_path('portfolio5.jpg'), style: "height: auto; width: 100%;" %>
+          <div class="text">
+            <p>Office Interior</p>
           </div>
         </a>
-      </li>
-
-    </ul>
-
+      </div>
+    </div>
   </div>
 </section>
