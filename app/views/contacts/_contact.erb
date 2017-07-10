@@ -11,32 +11,21 @@
       <%= form_for contact, class: 'contact-form' do |f| %>
         <div class="form-group">
           <h3 style="margin-top: 1em; margin-bottom: 1em;">NAME</h3>
-          <%= f.text_field :email, class: 'form-control' %>
+          <%= f.text_field :email, required: true, class: 'form-control' %>
         </div>
         <div class="form-group">
           <h3 style="margin-top: 1em; margin-bottom: 1em;">E-MAIL</h3>
-          <%= f.text_field :name, class: 'form-control' %>
+          <%= f.text_field :name, required: true, class: 'form-control' %>
         </div>
         <div class="form-group">
           <h3 style="margin-top: 1em; margin-bottom: 1em;">MESSAGE</h3>
-          <%= f.text_area :message, rows: 5, class: 'form-control' %>
+          <%= f.text_area :message, required: true, rows: 5, class: 'form-control' %>
         </div>
         <%= f.submit "SEND", class: "btn btn-default submit" %>
       <% end %>
-
-      <div class="content" id="Contact-subscribe">
-        <h1>SUBSCRIBE</h1> <hr style="border-color: #d1aa88;"/>
-        <p class="contact">
-          You can subscribe our newsletters.
-        </p><br>
-        <%= form_for subscribe, class: 'subscribe-form' do |f| %>
-          <div class="form-group">
-            <h3 style="margin-top: 1em; margin-bottom: 1em;">E-MAIL</h3>
-            <%= f.text_field :name, class: 'form-control' %>
-          </div>
-          <%= f.submit "SUBSCRIBE", class: "btn btn-default submit", style: "margin-bottom: 4em;" %>
-        <% end %>
-      </div>
-
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   </section>
