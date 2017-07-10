@@ -514,7 +514,7 @@ h1 span{
 .portfolio{
   position:relative;
   width:100%;
-  background:#f3f3f3;
+  background:white;
   z-index:10;
 
 }
