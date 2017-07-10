@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'newhome/index'
+
   get 'subscribe/create'
 
   get 'subscribe/destroy'
@@ -29,5 +31,6 @@ Rails.application.routes.draw do
 
   get 'home/index'
   root 'home#index'
+  get 'newhome/index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
