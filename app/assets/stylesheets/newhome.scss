@@ -590,9 +590,26 @@
   text-align:center;
 }
 
+.contact .btn{
+    padding: 14px 24px;
+    font-weight: 700;
+    background: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-size: 1.2em;
+    float: right;
+}
 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
 
-
+.btn:hover {
+    background: #d1aa88;
+    color: white !important;
+    border: 1px solid white;
+}
 
 /* Footer */
 
@@ -603,10 +620,9 @@
   background:#3c3c3c;
 }
 
-.footer .logo{
-
-  width:58px;
-  height:58px;
+.footer_logo{
+  width:3em;
+  height:2em;
   margin: auto;
   padding-top:20px;
 }
