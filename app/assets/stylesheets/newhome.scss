@@ -322,7 +322,7 @@
 }
 
 .new-aboutus .column-one .circle-one{
-  height: 100px;
+  height: 200px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
@@ -330,7 +330,7 @@
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
-  width: 100px;
+  width: 200px;
   cursor:pointer;
     -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -353,7 +353,7 @@
 }
 
 .new-aboutus .column-two .circle-two{
-  height: 100px;
+  height: 200px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
@@ -361,7 +361,7 @@
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
-  width: 100px;
+  width: 200px;
     cursor:pointer;
     -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -384,7 +384,7 @@
 }
 
 .new-aboutus .column-three .circle-three{
-  height: 100px;
+  height: 200px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
@@ -392,7 +392,7 @@
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
-  width: 100px;
+  width: 200px;
   cursor:pointer;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -539,6 +539,58 @@
   font-weight:300;
   text-align:center;
 }
+
+
+//************************ Contact **********************************
+.contact{
+  position:relative;
+  width:917px;
+  margin-left: 111.5px;
+  background:white;
+  z-index:10;
+}
+
+.contact .content{
+  position:relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contact h1{
+  font-size:34px;
+  color:black;
+  text-align:center;
+  margin-top:120px;
+  letter-spacing:6px;
+  /*font-weight:bold;*/
+  text-transform:uppercase;
+  line-height:1.2;
+
+}
+
+.contact hr{
+  color: black;
+  margin-top:30px;
+  background-color: #d1aa88;
+  height: 1px;
+  width:106px;
+  border:0;
+
+}
+
+.contact p.title{
+  color: #a4a4a4;
+  margin: auto;
+  margin-bottom: 2em;
+  width:800px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
+  font-weight:300;
+  text-align:center;
+}
+
+
 
 
 

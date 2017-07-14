@@ -1,44 +1,31 @@
+<!-- Homepage -->
+<%= render partial: "newhome" %>
 
-  <!-- Homepage -->
-  <%= render partial: "home" %>
+<!-- Loading할때 나오는 page -->
+<div class="preloader" id="preloader">
+    <div class="item">
+      <%= image_tag asset_path('loading.gif') %>
+    </div>
+</div>
 
-  <!-- Loading할때 나오는 page -->
-  <div class="preloader" id="preloader">
-      <div class="item">
-        <%= image_tag asset_path('loading.gif') %>
-      </div>
+<!-- Navbar & mobile view Navbar -->
+<%= render partial: "newnavbar" %>
+
+<div class="white">
+  <div class="container">
+    <!-- ABOUT US -->
+    <%= render partial: "newaboutus" %>
+
+    <!-- portoflio-->
+    <%= render partial: 'newportfolio' %>
+
+    <!-- COSMO BLANC -->
+    <%= render partial: "newcosmoblanc" %>
+
+    <!-- Contact-->
+    <%= render partial: 'contacts/contact', locals: { contact:@contact } %>
   </div>
 
-  <!-- Navbar & mobile view Navbar -->
-  <%= render partial: "navbar" %>
-
-  <!-- ABOUT US -->
-  <%= render partial: "aboutus" %>
-
-
-  <div class="clear"></div>
-
-  <div class="clear"></div>
-  <%= render partial: 'panelintro' %>
-  <%= render partial: 'market' %>
-  <%= render partial: 'portfolio' %>
-  <%= render partial: 'potential' %>
-  <%= render partial: 'woringmovie' %>
-
-  <div class="clear"></div>
-
-  <!-- ABOUT US -->
-  <%= render partial: "cosmoblanc" %>
-
-  <!-- Contact-->
-  <%= render partial: 'contacts/contact', locals: { contact:@contact } %>
-
-  <!-- Footer -->
-  <%= render partial: "footer" %>
-
-<!--
-   <script>
-   $( ".menu-content ul li" ).hover(function() {
-     $(this).slideToggle(400);
-   });
-   </script> -->
+  <!-- footer -->
+  <%= render partial: "newfooter" %>
+</div>
