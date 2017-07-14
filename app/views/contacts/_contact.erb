@@ -10,18 +10,22 @@
     <div class="form">
       <%= form_for contact, class: 'contact-form' do |f| %>
         <div class="form-group">
-          <h3 style="margin-top: 1em; margin-bottom: 1em;">NAME</h3>
-          <%= f.text_field :email, required: true, class: 'form-control', style: 'border: 1px solid #d1aa88;' %>
+          <h4 id="contact-title">NAME</h3>
+          <%= f.text_field :email, required: true, class: 'form-control', style: 'width: 40em; margin: auto; border: 1px solid #d1aa88;' %>
         </div>
         <div class="form-group">
-          <h3 style="margin-top: 1em; margin-bottom: 1em;">E-MAIL</h3>
-          <%= f.text_field :name, required: true, class: 'form-control', style: 'border: 1px solid  #d1aa88;' %>
+          <h4 id="contact-title">E-MAIL</h3>
+          <%= f.text_field :name, required: true, class: 'form-control', style: 'width: 40em; margin: auto; border: 1px solid #d1aa88;' %>
         </div>
         <div class="form-group">
-          <h3 style="margin-top: 1em; margin-bottom: 1em;">MESSAGE</h3>
-          <%= f.text_area :message, required: true, rows: 5, class: 'form-control', style: 'border: 1px solid  #d1aa88;' %>
+          <h4 id="contact-title">MESSAGE</h3>
+          <%= f.text_area :message, required: true, rows: 5, class: 'form-control', style: 'width: 40em; margin: auto; margin: auto; border: 1px solid  #d1aa88;' %>
         </div>
-        <%= f.submit "SEND", class: "btn submit" %>
+        <br />
+        <br />
+        <div class="form-group" style="text-align: center;">
+          <%= f.submit "SEND", class: "btn submit" %>
+        </div>
       <% end %>
       <br />
       <br />
@@ -29,3 +33,4 @@
       <br />
     </div>
   </section>
+<!-- section Contact -->

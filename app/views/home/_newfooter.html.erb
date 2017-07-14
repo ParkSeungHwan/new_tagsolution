@@ -1,7 +1,7 @@
-<section class="footer">
-  <a href="#home">
-    <%= image_tag asset_path('footer_logo.png'), style: 'footer_logo' %>
-  </a>
+<section class="footer" style="text-align: center;">
+  <%= link_to href: '#home' do %>
+    <%= image_tag asset_path('footer_logo.png'), class: 'footer_logo' %>
+  <% end %>
   <div class="menu-footer">
     <a href="#home">Home</a>
     <a href="https://www.facebook.com/techartglass/">Facebook</a>
